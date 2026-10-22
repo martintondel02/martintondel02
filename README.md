@@ -15,13 +15,6 @@ I'm a student in Trondheim, Norway, and the person behind **MTENK**. I build too
 
 Most of what's here is one-person work. Each project tries to say plainly what works, what doesn't, and what has actually been verified. I'd rather ship something small and inspectable than something impressive and opaque.
 
-## What I keep coming back to
-
-- **Local-first by default.** Your data lives on your machine. In [Cove](https://github.com/martintondel02/cove) your instance *is* your identity — `@you@your-domain`, no platform in the middle.
-- **Boring infrastructure.** Docker Compose, Postgres, a single binary. No cloud account required to start the thing.
-- **Honest status blocks.** [mcgen](https://github.com/martintondel02/mcgen) reproduces Minecraft's world generation bit-for-bit and is frankly 5–6× slower than vanilla. The README says so in the first paragraph, because that's the most useful thing to know.
-- **Interoperate instead of reinventing.** [MeshDeck](https://github.com/martintondel02/meshdeck) speaks LXMF and NomadNet's node scheme rather than defining a new network.
-
 ## Featured projects
 
 | Project | What it is | Stack |
