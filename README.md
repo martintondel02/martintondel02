@@ -20,18 +20,18 @@ Most of what's here is one-person work. Each project tries to say plainly what w
 | Project | What it is | Stack |
 | :--- | :--- | :--- |
 | **[MeshDeck](https://github.com/martintondel02/meshdeck)** | A friendly all-in-one Reticulum app: encrypted chat, file sharing and page hosting over mesh networks — basic mode for talking, advanced mode for the knobs | Python |
-| **[Cove](https://github.com/martintondel02/cove)** | A self-hostable, federated home for your videos, livestreams and photos. One owner, anyone with the link can watch | TypeScript |
 | **[Fluxbot](https://github.com/martintondel02/fluxbot)** | All-in-one Fluxer bot with a real web dashboard — levels, roles, fun. Works with any instance, no separate accounts | TypeScript |
-| **[Nodewatch](https://github.com/martintondel02/nodewatch)** | Self-hosted server monitoring: a tiny agent + FastAPI dashboard for CPU, RAM, disk and network | Python |
-| **[Hammerhead](https://github.com/martintondel02/hammerhead)** | Native desktop client for Sharkord (self-hosted chat) — Tauri 2, Flatpak + RPM for Fedora | Rust · JS |
-| **[Sharkcord Client](https://github.com/martintondel02/sharkcordclient)** | Unofficial native Sharkord client for Android, Linux and Windows — Rust core, egui UI | Rust |
 
 ## Student tools
 
 **[Studiehacks](https://studiehacks.no)** — free, all-in-one study suite for BI students: notes, timetable, tasks, courses, study groups and an AI assistant in one place. Built by a BI student for BI students, in Norwegian. This is the project most people I know actually use daily.
 
-## Smaller things
+## Other projects
 
+- **[Cove](https://github.com/martintondel02/cove)** — a self-hostable, federated home for your videos, livestreams and photos. One owner, anyone with the link can watch.
+- **[Nodewatch](https://github.com/martintondel02/nodewatch)** — self-hosted server monitoring: a tiny agent + FastAPI dashboard for CPU, RAM, disk and network.
+- **[Hammerhead](https://github.com/martintondel02/hammerhead)** — native desktop client for Sharkord, Tauri 2, Flatpak + RPM for Fedora.
+- **[Sharkcord Client](https://github.com/martintondel02/sharkcordclient)** — unofficial native Sharkord client for Android, Linux and Windows, Rust core + egui.
 - **[mcgen](https://github.com/martintondel02/mcgen)** — bit-exact Rust implementation of Minecraft's world-generation density layer, running inside a real NeoForge server. Correct, verifiable, honestly slower.
 - **[SENTINEL](https://github.com/martintondel02/sentinel)** — real-time global military awareness dashboard.
 - **[GoonEconomy](https://github.com/martintondel02/gooneconomy)** — simulated institutional-grade trading terminal with a 100 ms matching engine.
