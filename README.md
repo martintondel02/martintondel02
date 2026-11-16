@@ -38,19 +38,19 @@ Local-first by design: media, waveforms, projects and exports stay in folders on
 
 ## Most active in the open
 
-| Repository | What it is | Latest | Stack |
+| Repository | What it is | Last work | Stack |
 | :--- | :--- | :--- | :--- |
 | **[Aava Cut](https://github.com/martintondel02/aava-cut)** | A local-first video editor for Linux, packaged for real use | v2.1.1 · Nov 2026 | TypeScript · Electron · FFmpeg |
-| **[Radiadash](https://github.com/martintondel02/radiadash)** | Native Linux dashboard and spectrometer for the RadiaCode 110: live counts, dose, spectra, isotope candidates and survey maps | v0.2.0 · Oct 2026 | Rust |
-| **[AirPlay for Linux](https://github.com/martintondel02/airplay-linux)** | Mirror a Fedora/GNOME Wayland desktop to an Apple TV — top-bar indicator, GTK4 app, and an installer that builds doubletake; verified against an Apple TV 4K | Oct 2026 | JavaScript · GTK4 · GStreamer |
+| **[Radiadash](https://github.com/martintondel02/radiadash)** | Native Linux dashboard and spectrometer for the RadiaCode 110: live counts, dose, spectra, isotope candidates and geotagged survey maps | v0.2.0 · Oct 2026 | Rust · Tauri |
+| **[AirPlay for Linux](https://github.com/martintondel02/airplay-linux)** | Mirror a Fedora/GNOME Wayland desktop to an Apple TV — top-bar indicator, GTK4 app, and an installer that builds doubletake; verified on a real Apple TV 4K | Oct 2026 | GNOME Shell · Python · GStreamer |
 | **[Fluxbot](https://github.com/martintondel02/fluxbot)** | Self-hostable, all-in-one Fluxer bot with a real web dashboard — levels, roles and community modules. Works with any instance | v0.1 · Oct 2026 | TypeScript |
-| **[MeshDeck](https://github.com/martintondel02/meshdeck)** | All-in-one Reticulum app: encrypted chat, file sharing and NomadNet-compatible page hosting over mesh networks | v0.2.0 · Oct 2026 | Python |
+| **[MeshDeck](https://github.com/martintondel02/meshdeck)** | All-in-one Reticulum app: encrypted LXMF chat, file sharing and NomadNet-compatible page hosting over mesh networks; interop tested against NomadNet and the official lxmf | v0.2.0 · Oct 2026 | Python |
+| **[mcgen](https://github.com/martintondel02/mcgen)** | A bit-exact Rust reimplementation of Minecraft's world-generation density layer, running inside a real NeoForge 1.21.1 server — correct, verifiable, and honestly slower than vanilla | v0.2.0 · Oct 2026 | Rust · Java |
 
 ## Also public
 
-- **[Cove](https://github.com/martintondel02/cove)** — a self-hostable, federated home for video, livestreams and photos; one owner, anyone with the link can watch. Phase 1 is complete: resumable upload, remux-or-transcode, HLS playback, verified end to end.
-- **[mcgen](https://github.com/martintondel02/mcgen)** — a bit-exact Rust implementation of Minecraft's world-generation density layer, running inside a real NeoForge 1.21.1 server. Correct, verifiable, and honestly slower than vanilla.
-- **[Hammerhead](https://github.com/martintondel02/hammerhead)** — a thin desktop shell for Sharkord on Fedora/Linux (Flatpak + RPM); it always runs the web client your server ships, so there is no client/server version skew.
+- **[Cove](https://github.com/martintondel02/cove)** — a personal, self-hostable home for video, livestreams and photos; one owner, anyone with the link can watch. Phase 1 of 7 is done — resumable upload, remux-or-transcode and HLS playback, verified end to end — and it is not ready to hand to someone else to self-host yet.
+- **[Hammerhead](https://github.com/martintondel02/hammerhead)** — a thin desktop shell for Sharkord on Fedora/Linux; it always runs the web client your server ships, so there is no client/server version skew.
 - **[Sharkcord Client](https://github.com/martintondel02/sharkcordclient)** — an unofficial native client for Sharkord: Rust core + egui UI, for Android, Linux and Windows.
 - **[SENTINEL](https://github.com/martintondel02/sentinel)** — real-time global military awareness dashboard.
 - **[GoonEconomy](https://github.com/martintondel02/gooneconomy)** — simulated institutional-grade trading terminal with a 100 ms market engine.
@@ -63,7 +63,7 @@ Local-first by design: media, waveforms, projects and exports stay in folders on
 
 **[Studiehacks](https://studiehacks.no)** — a free, all-in-one study suite for BI students: notes, timetable, tasks, courses, study groups and an AI assistant in one place, in Norwegian. It's the project most people I know actually use daily. Like most of my Mtenk work, its repository is private; the site is not.
 
-I also maintain forks of things I actually run: **[Sharkord](https://github.com/martintondel02/sharkord)**, **[Jellyfin](https://github.com/martintondel02/jellyfin)**, **[Bitwarden clients](https://github.com/martintondel02/clients)**, and the English edition of **[dsh-claude-style](https://github.com/martintondel02/dsh-claude-style-en)** — a Claude Code Desktop theme for the DeepSeek Harness web GUI.
+I also keep forks of things I actually run: **[Sharkord](https://github.com/martintondel02/sharkord)**, **[Jellyfin](https://github.com/martintondel02/jellyfin)** and **[Bitwarden clients](https://github.com/martintondel02/clients)**. The one fork with my own edits is **[dsh-claude-style-en](https://github.com/martintondel02/dsh-claude-style-en)**, an English edition of Nwflower's Claude Code Desktop theme for the DeepSeek Harness web GUI.
 
 ## Elsewhere
 
@@ -71,4 +71,4 @@ I also maintain forks of things I actually run: **[Sharkord](https://github.com/
 - 🎬 [Aava Cut releases](https://github.com/martintondel02/aava-cut/releases)
 - 🏢 MTENK — [@martintondel02](https://github.com/martintondel02)
 
-<sub>Everything public here is MIT unless the repository says otherwise (Cove and OpenFront Evolved are AGPL-3.0, mcgen is GPL-3.0, AirPlay for Linux is MIT + LGPL-3.0 through doubletake). Nothing I build phones home: no analytics, no accounts you don't own, no telemetry.</sub>
+<sub>Licenses are per repository: MIT on most, AGPL-3.0 on Cove and OpenFront Evolved, GPL-3.0 on mcgen, MIT + LGPL-3.0 on AirPlay for Linux through doubletake. A few old experiments still have no license file — treat those as all rights reserved. Nothing I build phones home: no analytics, no accounts you don't own, no telemetry.</sub>
